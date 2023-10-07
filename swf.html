@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>SWF Presentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        function getUrlVars() {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for (var i = 0; i < hashes.length; i++) {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+    </script>
+</head>
+
+<body>
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="jquery.swfobject.1-1-1.min.js"></script>
+
+    <script>
+        $(document).ready(
+	function () {
+	    $('#myFlash').flash(
+            {
+                swf: 'swf/'+getUrlVars()["id"]+'.swf',
+                height: 400,
+                width: 500
+            }
+            );
+	}
+);
+    </script>
+    <div id="myFlash">
+        The &quot;You don't have flash.
+       <a href="https://get.adobe.com/flashplayer/" target="_blank">https://get.adobe.com/flashplayer/</a>
+    </div>
+
+</body>
+</html>
