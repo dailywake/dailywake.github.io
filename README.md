@@ -41,7 +41,7 @@
         <aside class="hs-menu" id="hs-menu">
             <div class="hs-headline">
                 <a id="my-link" href="#my-panel"><i class="fa fa-bars"></i></a>
-                <a href="http://www.ahmadali.cf/Ahmad-IT-Instructor.pdf" target="_blank" class="download"><i class="fa fa-cloud-download"></i></a>
+                <a href="Ahmad-IT-Instructor.pdf" target="_blank" class="download"><i class="fa fa-cloud-download"></i></a>
                 <a href="indexAr.html" class="menu_name"><i class="fa fa-language"></i> اللغة العربية </a>
                 <div class="img-wrap">
                     <img src="images/AhmadAli.jpg" alt="Ahmad Ali Alafaghani" width="150" height="150" />
@@ -184,7 +184,7 @@
                                     </ul>
                                     <div id="myTabContent" class="tab-content">
                                         <div class="tab-pane fade in active" id="bio">
-                                            <h3><a href="http://www.ahmadali.cf/Ahmad-IT-Instructor.pdf" target="_blank">Download Curriculum Vitae (CV)</a></h3>
+                                            <h3><a href="Ahmad-IT-Instructor.pdf" target="_blank">Download Curriculum Vitae (CV)</a></h3>
                                             <h4>ABOUT ME</h4>
                                             <p>
                                                 <table>
